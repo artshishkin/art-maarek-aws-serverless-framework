@@ -42,5 +42,10 @@ AWS Lambda and the Serverless Framework - Hands On Learning!  - Tutorial from St
 2.  Deploy only function
     -  `sls deploy function -f hello`
 
+#####  13. Fetching the function logs from the CLI
+
+-  `sls logs -f hello -t`
+    - `-t` - tail
+
 
 
