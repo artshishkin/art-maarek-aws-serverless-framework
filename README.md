@@ -34,7 +34,13 @@ AWS Lambda and the Serverless Framework - Hands On Learning!  - Tutorial from St
 
 -  `sls invoke -f hello -l`
 
+#####  12. Updating the function from the CLI
 
+1.  Redeploy entire stack
+    -  `sls deploy --verbose`
+    -  too long
+2.  Deploy only function
+    -  `sls deploy function -f hello`
 
 
 

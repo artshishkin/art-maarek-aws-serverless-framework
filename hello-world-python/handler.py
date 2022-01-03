@@ -1,3 +1,3 @@
 def hello(event, context):
-    print("hi !")
-    return "hello-world"
+    print("second update")
+    return "hello-world second"
