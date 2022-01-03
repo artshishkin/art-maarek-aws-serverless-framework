@@ -47,5 +47,8 @@ AWS Lambda and the Serverless Framework - Hands On Learning!  - Tutorial from St
 -  `sls logs -f hello -t`
     - `-t` - tail
 
+#####  14. Removing the function
+
+-  `sls remove`
 
 
