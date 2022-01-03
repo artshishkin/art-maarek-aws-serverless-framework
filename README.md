@@ -30,4 +30,11 @@ AWS Lambda and the Serverless Framework - Hands On Learning!  - Tutorial from St
 4.  Deploy
     -  `sls deploy --verbose`
 
+#####  11. Running the function from the CLI
+
+-  `sls invoke -f hello -l`
+
+
+
+
 
