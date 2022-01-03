@@ -17,3 +17,17 @@ AWS Lambda and the Serverless Framework - Hands On Learning!  - Tutorial from St
         -  Download .csv
 3.  Configure credentials
     -  `serverless config credentials --provider aws --key XXX --secret YYY --profile serverless-admin`
+
+#####  10. Deploying our First Function
+
+1.  List commands
+    -  `serverless --help`
+    -  `sls --help` - shortcut
+2.  Create 
+    -  `sls create --template aws-python --path hello-world-python`
+3.  Runtime version
+    -  `runtime: python3.8`
+4.  Deploy
+    -  `sls deploy --verbose`
+
+
