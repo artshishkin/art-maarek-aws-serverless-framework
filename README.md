@@ -51,4 +51,12 @@ AWS Lambda and the Serverless Framework - Hands On Learning!  - Tutorial from St
 
 -  `sls remove`
 
+####  Section 5: AWS Lambda & Serverless - In Depth
+
+#####  16. Create AWS Lambda function using any runtime
+
+-  `sls create --help` - list
+-  `sls create --template aws-nodejs --path sls-nodejs-example`
+-  `sls create --template aws-java-maven --path sls-java-example`
+
 
