@@ -59,4 +59,12 @@ AWS Lambda and the Serverless Framework - Hands On Learning!  - Tutorial from St
 -  `sls create --template aws-nodejs --path sls-nodejs-example`
 -  `sls create --template aws-java-maven --path sls-java-example`
 
+#####  18. JSON to YAML Practice Exercise!
+
+- [json2yaml](https://www.json2yaml.com/)
+
+
+
+
+
 
