@@ -63,8 +63,11 @@ AWS Lambda and the Serverless Framework - Hands On Learning!  - Tutorial from St
 
 - [json2yaml](https://www.json2yaml.com/)
 
+#####  19. Functions timeout and memory
 
-
+-  [custom serverless framework json schema](https://raw.githubusercontent.com/softprops/serverless-yml-schema/master/serverless-schema.json)
+-  `sls invoke -f hello-short-timeout -l`
+-  `sls invoke -f hello-long-timeout -l`
 
 
 
