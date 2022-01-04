@@ -88,3 +88,24 @@ AWS Lambda and the Serverless Framework - Hands On Learning!  - Tutorial from St
     -  `}`
 3.  Add IAM Permissions to ListFunctions
 4.  Invoke -> OK
+
+#####  22. VPC for Lambda Functions
+
+-  VPC console
+    -  VPCs -> 1
+    -  Subnets -> 3 (for example choose 2)
+-  Security Groups
+    -  create security group
+    -  Name: `my-lambda-sg`
+    -  Description: `Test Security Group`
+    -  Create
+-  GroupId: `sg-0b46b252a446a15e4`
+-  Deploy: `sls deploy --verbose`
+-  View VPC in Lambda Configuration
+    -  Lambda Console -> Configuration -> VPC
+    -  Match: VPC, Subnets, Security groups
+-  View Lambda Role
+    -  Attached policy: AWSLambdaVPCAccessExecutionRole
+
+
+
