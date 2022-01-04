@@ -86,3 +86,5 @@ AWS Lambda and the Serverless Framework - Hands On Learning!  - Tutorial from St
     -  `  "  File \"/var/runtime/botocore/client.py\", line 705, in _make_api_call\n    raise error_class(parsed_response, operation_name)\n"`
     -  `]`
     -  `}`
+3.  Add IAM Permissions to ListFunctions
+4.  Invoke -> OK
