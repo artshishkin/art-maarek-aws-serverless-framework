@@ -69,5 +69,20 @@ AWS Lambda and the Serverless Framework - Hands On Learning!  - Tutorial from St
 -  `sls invoke -f hello-short-timeout -l`
 -  `sls invoke -f hello-long-timeout -l`
 
+#####  20. IAM Permissions for Lambda Functions
 
-
+1.  Deploy stack
+    -  `sls deploy --verbose`
+2.  Invoke function    
+    -  `sls invoke -f hello-iam-example -l`
+    -  **got an error**   
+    -  `{`
+    -  `  "errorMessage": "An error occurred (AccessDeniedException) when calling the ListFunctions operation: User: arn:aws:sts::392971033516:assumed-role/sls-python-iam-dev-eu-north-1-lamb`
+    -  `  daRole/sls-python-iam-dev-hello-iam-example is not authorized to perform: lambda:ListFunctions on resource: * because no identity-based policy allows the lambda:ListFunctions action",`
+    -  `  "errorType": "ClientError",`
+    -  `  "stackTrace": [`
+    -  `  "  File \"/var/task/handler.py\", line 6, in hello\n    response = client.list_functions()\n",`
+    -  `  "  File \"/var/runtime/botocore/client.py\", line 386, in _api_call\n    return self._make_api_call(operation_name, kwargs)\n",`
+    -  `  "  File \"/var/runtime/botocore/client.py\", line 705, in _make_api_call\n    raise error_class(parsed_response, operation_name)\n"`
+    -  `]`
+    -  `}`
