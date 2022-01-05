@@ -51,6 +51,7 @@ functions:
           bucket: ${self:custom.bucket}
           event: s3:ObjectCreated:*
           rules:
+            - prefix: original/
             - suffix: .png
 
 plugins:

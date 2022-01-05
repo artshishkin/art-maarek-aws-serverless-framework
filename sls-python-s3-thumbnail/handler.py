@@ -42,7 +42,7 @@ def image_to_thumbnail(image):
 def new_filename(key):
     key_split = key.rsplit('.', 1)
     print(key_split)
-    return key_split[0] + "_thumbnail.png"
+    return key_split[0].replace("original/", "thumb/") + "_thumbnail.png"
 
 
 def upload_to_s3(bucket, key, image):
