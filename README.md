@@ -107,5 +107,9 @@ AWS Lambda and the Serverless Framework - Hands On Learning!  - Tutorial from St
 -  View Lambda Role
     -  Attached policy: AWSLambdaVPCAccessExecutionRole
 
+####  Section 6: Real World Example 1 - S3 Thumbnails
 
+#####  26. Implementation of Thumbnail Service
+
+-  `serverless plugin install -n serverless-python-requirements`
 
