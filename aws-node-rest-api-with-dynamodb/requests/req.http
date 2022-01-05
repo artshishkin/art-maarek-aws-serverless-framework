@@ -1,0 +1,32 @@
+### List ALL todos
+GET {{serverUrl}}/todos
+Accept: application/json
+
+### Create new todo
+POST {{serverUrl}}/todos
+Content-Type: application/json
+
+{
+  "text": "Super cool todo {{$randomInt}}"
+}
+
+> {% client.global.set("todo_id", response.body.id); %}
+
+###  Get todo by id
+GET {{serverUrl}}/todos/{{todo_id}}
+Accept: application/json
+
+###  Update todo
+PUT {{serverUrl}}/todos/{{todo_id}}
+Accept: application/json
+Content-Type: application/json
+
+{
+  "text": "Updated todo {{$randomInt}}",
+  "checked": true
+}
+
+###  Delete todo
+DELETE {{serverUrl}}/todos/{{todo_id}}
+Accept: application/json
+
