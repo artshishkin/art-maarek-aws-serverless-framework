@@ -113,3 +113,8 @@ AWS Lambda and the Serverless Framework - Hands On Learning!  - Tutorial from St
 
 -  `serverless plugin install -n serverless-python-requirements`
 
+####  Section 7: Real World Example 2 - REST API
+
+-  [Serverless Examples](https://github.com/serverless/examples)
+-  [Serverless REST API](https://github.com/serverless/examples/tree/master/aws-node-rest-api-with-dynamodb)
+
