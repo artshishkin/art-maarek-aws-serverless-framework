@@ -39,21 +39,9 @@ provider:
     THUMBNAIL_SIZE: "128"
 
 custom:
-  bucket: art-s3-thumbnail-generator-1
+  bucket: art-s3-thumbnail-generator
   pythonRequirements:
     dockerizePip: true
-
-# you can define service wide environment variables here
-#  environment:
-#    variable1: value1
-
-# you can add packaging information here
-#package:
-#  patterns:
-#    - '!exclude-me.py'
-#    - '!exclude-me-dir/**'
-#    - include-me.py
-#    - include-me-dir/**
 
 functions:
   s3_thumbnail_generator:
